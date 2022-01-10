@@ -116,6 +116,30 @@ function About() {
           </div>
         </div>
       </div>
+      <div class="aligncenter">
+        <h2>SUPER AKCIJA</h2>
+        <a href="https://www.telekom.si/zasebni-uporabniki/ponudba/e-trgovina/izdelek/tv-in-avdio/televizorji/philips-75pml9506-12-4k-siva">
+          <img
+            class="akcija"
+            src="https://ts.sdn.si/hybris/1000/70032576_00/philips-75pml9506-12-4k-siva/001.jpg"
+            alt="Philips 75PML9506/12 4K"
+          />
+        </a>
+        <div class="top-left">Philips 75PML9506/12 4K</div>
+        <div class="bottom-right">
+          AKCIJSKA CENA 24 x <b>101,00 €</b>
+        </div>
+      </div>
+      <div id="opis">
+        <h4>Opis izdelka</h4>
+        <p>
+          S podrobnostmi vzbudi vaša čustva. Televizor MiniLED 4K UHD s sistemom
+          Android. Od igranja igric do filmov boste s televizorjem Philips
+          MiniLED občutili več. Slika je tako pristna, da boste segli po njej in
+          se je želeli dotakniti. Vse je večje in intenzivnejše s čarobno
+          4-stransko osvetlitvijo Ambilight.
+        </p>
+      </div>
     </div>
   );
 }
