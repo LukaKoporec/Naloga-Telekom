@@ -1,0 +1,52 @@
+div {
+  font-family: GeogrotesqueRegular,Arial,Helvetica,sans-serif;
+  position: relative;
+}
+#start {
+  margin: 40px 200px 40px 200px;
+  font-family: GeogrotesqueRegular,Arial,Helvetica,sans-serif;
+  color: #516BEB;
+  font-size: 20px;
+  text-align: center;
+  
+}
+
+h2 {
+  font-family: GeogrotesqueRegular,Arial,Helvetica,sans-serif;
+  text-align: center;
+  padding-top: 30px;
+  font-size: 30px;
+}
+hr {
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+#cena {
+  color: #516BEB;
+  position: relative;
+  padding: 20px;
+  margin: 60px 150px 60px 150px;
+  border: 1px solid #516BEB;
+  font-size: 16px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+img {
+  border: 1px solid #ddd;
+  border-radius: 4px;  
+  padding: 5px;
+  margin: auto;
+
+}
+
+
+img:hover {
+  box-shadow: 0 0 2px 1px #516BEB;
+}
+
+.aligncenter {
+  text-align: center;
+}
