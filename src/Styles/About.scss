@@ -50,3 +50,21 @@ img:hover {
 .aligncenter {
   text-align: center;
 }
+
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 50px;
+}
+
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 50px;
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 50px;
+}

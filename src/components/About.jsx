@@ -69,6 +69,15 @@ function About() {
               alt="Apple iPhone 13"
             />
           </a>
+          <div class="top-left">Apple iPhone 13</div>
+          <div class="bottom-right">
+            CENA 24 x <b>34,24 €</b>
+          </div>
+          <div class="bottom-left">
+            <a href="https://tehnik.telekom.si/test-na-dlani/test-na-dlani-apple-iphone-13">
+              Test
+            </a>
+          </div>
         </div>
         <div>
           <a href="https://www.telekom.si/zasebni-uporabniki/ponudba/e-trgovina/izdelek/sport-in-prosti-cas/pametne-ure-in-zapestnice/apple-pametna-ura-watch-series-s7-gps-41mm-sport-band-mkmx3bs-a-41-mm-crna-s-crnim-pasckom-sb">
@@ -77,6 +86,17 @@ function About() {
               alt="Apple Pametna ura Series 7"
             />
           </a>
+          <div class="top-left">
+            Apple Pametna ura Watch Series S7 GPS 41mm Sport Band (MKMX3BS/A)
+          </div>
+          <div class="bottom-right">
+            CENA 24 x <b>15,39 €</b>
+          </div>
+          <div class="bottom-left">
+            <a href="https://tehnik.telekom.si/test-na-dlani/test-na-dlani-apple-watch7">
+              Test
+            </a>
+          </div>
         </div>
         <div>
           <a href="https://www.telekom.si/zasebni-uporabniki/ponudba/e-trgovina/izdelek/racunalnistvo/igralne-konzole/sony-playstation5-825gb-bela">
@@ -85,6 +105,15 @@ function About() {
               alt="Sony PlayStation 5"
             />
           </a>
+          <div class="top-left">Sony PlayStation®5</div>
+          <div class="bottom-right">
+            CENA 24 x <b>21,00 €</b>
+          </div>
+          <div class="bottom-left">
+            <a href="https://tehnik.telekom.si/test-na-dlani/test-na-dlani-playstation-5">
+              Test
+            </a>
+          </div>
         </div>
       </div>
     </div>
