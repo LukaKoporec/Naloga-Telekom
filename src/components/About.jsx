@@ -37,7 +37,7 @@ function About() {
 
         <h3>
           {" "}
-          <FontAwesomeIcon className="fonti" icon={faMobile} />
+          <FontAwesomeIcon className="fonti, fontix" icon={faMobile} />
           MOBILNA TELEFONIJA
         </h3>
         <hr />
