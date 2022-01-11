@@ -7,9 +7,9 @@ function About() {
   return (
     <div>
       <p id="start">
-        Paket NEO Svet B poleg SVETOVNE mobilne telefonije, televizije,
-        interneta ter Fiksne telefonije novim in obstoječim naročnikom ponuja
-        tudi naprave po SVETOVNIH cenah.
+        <strong>Paket NEO Svet B</strong> poleg SVETOVNE mobilne telefonije,
+        televizije, interneta ter Fiksne telefonije novim in obstoječim
+        naročnikom ponuja tudi naprave <em>po SVETOVNIH cenah</em>.
       </p>
       <h2>Paket NEO Svet B</h2>
       <ol>
@@ -63,19 +63,20 @@ function About() {
       </ol>
       <p id="cena"> Redna cena paketa: 74 €</p>
       <h2>Naj NEO naprave</h2>
-      <div class="aligncenter">
+      <div className="aligncenter">
         <div>
           <a href="https://www.telekom.si/zasebni-uporabniki/ponudba/e-trgovina/izdelek/telefonija/mobiteli/apple-iphone-13-128gb-crna">
             <img
               src="https://ts.sdn.si/hybris/1000/70031663_00/apple-iphone-13-128gb-crna/001.jpg"
               alt="Apple iPhone 13"
+              className="tumbnail"
             />
           </a>
-          <div class="top-left">Apple iPhone 13</div>
-          <div class="bottom-right">
+          <div className="top-left">Apple iPhone 13</div>
+          <div className="bottom-right">
             CENA 24 x <b>34,24 €</b>
           </div>
-          <div class="bottom-left">
+          <div className="bottom-left">
             <a href="https://tehnik.telekom.si/test-na-dlani/test-na-dlani-apple-iphone-13">
               Test
             </a>
@@ -86,15 +87,16 @@ function About() {
             <img
               src="https://ts.sdn.si/hybris/1000/70031976_00/apple-pametna-ura-watch-series-s7-gps-41mm-sport-band-mkmx3bs-a-41-mm-crna-s-crnim-pasckom-sb/001.jpg"
               alt="Apple Pametna ura Series 7"
+              className="tumbnail"
             />
           </a>
-          <div class="top-left">
+          <div className="top-left">
             Apple Pametna ura Watch Series S7 GPS 41mm Sport Band (MKMX3BS/A)
           </div>
-          <div class="bottom-right">
+          <div className="bottom-right">
             CENA 24 x <b>15,39 €</b>
           </div>
-          <div class="bottom-left">
+          <div className="bottom-left">
             <a href="https://tehnik.telekom.si/test-na-dlani/test-na-dlani-apple-watch7">
               Test
             </a>
@@ -105,30 +107,31 @@ function About() {
             <img
               src="https://ts.sdn.si/hybris/1000/70028128_00/sony-playstation5-825gb-bela/001.jpg"
               alt="Sony PlayStation 5"
+              className="tumbnail"
             />
           </a>
-          <div class="top-left">Sony PlayStation®5</div>
-          <div class="bottom-right">
+          <div className="top-left">Sony PlayStation®5</div>
+          <div className="bottom-right">
             CENA 24 x <b>21,00 €</b>
           </div>
-          <div class="bottom-left">
+          <div className="bottom-left">
             <a href="https://tehnik.telekom.si/test-na-dlani/test-na-dlani-playstation-5">
               Test
             </a>
           </div>
         </div>
       </div>
-      <div class="aligncenter">
+      <div className="aligncenter">
         <h2>SUPER AKCIJA</h2>
         <a href="https://www.telekom.si/zasebni-uporabniki/ponudba/e-trgovina/izdelek/tv-in-avdio/televizorji/philips-75pml9506-12-4k-siva">
           <img
-            class="akcija"
+            className="akcija"
             src="https://ts.sdn.si/hybris/1000/70032576_00/philips-75pml9506-12-4k-siva/001.jpg"
             alt="Philips 75PML9506/12 4K"
           />
         </a>
-        <div class="top-left">Philips 75PML9506/12 4K</div>
-        <div class="bottom-right">
+        <div className="top-left">Philips 75PML9506/12 4K</div>
+        <div className="bottom-right">
           AKCIJSKA CENA 24 x <b>101,00 €</b>
         </div>
       </div>
@@ -142,7 +145,7 @@ function About() {
           4-stransko osvetlitvijo Ambilight.
         </p>
       </div>
-      <div class="small-print">
+      <div className="small-print">
         <h5>OPOMBE</h5>
         <p>
           <small>

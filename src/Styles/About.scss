@@ -1,3 +1,10 @@
+* {
+  box-sizing: border-box;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
 div {
   font-family: GeogrotesqueRegular,Arial,Helvetica,sans-serif;
   position: relative;
@@ -34,7 +41,7 @@ hr {
   text-align: center;
 }
 
-img {
+.tumbnail {
   border: 1px solid #ddd;
   border-radius: 4px;  
   padding: 5px;
@@ -43,7 +50,7 @@ img {
 }
 
 
-img:hover {
+.tumbnail:hover {
   box-shadow: 0 0 2px 1px #516BEB;
 }
 
