@@ -1,28 +1,30 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
+import {
+  faFilePdf,
+  faMobile,
+  faTv,
+  faDesktop,
+  faPhone,
+  faInfo
+} from "@fortawesome/free-solid-svg-icons";
 import "../Styles/Styles.scss";
 
-function Accordion() {
-  var acc = document.getElementsByClassName("accordion");
-  var i;
+function Accordion(e) {
+  const target = e.target;
+  target.classList.toggle("active");
 
-  for (i = 0; i < acc.length; i++) {
-    acc[i].addEventListener("click", function () {
-      this.classList.toggle("active");
-
-      var panel = this.nextElementSibling;
-      if (panel.style.display === "block") {
-        panel.style.display = "none";
-      } else {
-        panel.style.display = "block";
-      }
-    });
+  const panel = target.nextElementSibling;
+  if (panel.style.display === "block") {
+    panel.style.display = "none";
+  } else {
+    panel.style.display = "block";
   }
 }
+
 function About() {
   return (
-    <div className="container">
+    <div className="container row">
       <p id="start">
         <strong>Paket NEO Svet B</strong> poleg SVETOVNE mobilne telefonije,
         televizije, interneta ter Fiksne telefonije novim in obstoječim
@@ -32,7 +34,12 @@ function About() {
 
       <ul>
         <hr />
-        <h3>MOBILNA TELEFONIJA</h3>
+
+        <h3>
+          {" "}
+          <FontAwesomeIcon className="fonti" icon={faMobile} />
+          MOBILNA TELEFONIJA
+        </h3>
         <hr />
         <li>
           <b>neomejeni</b> klici in sporočila SMS/MMS v vsa slovenska mobilna in
@@ -51,7 +58,10 @@ function About() {
       </ul>
       <ul>
         <hr />
-        <h3>TELEVIZIJA</h3>
+
+        <h3>
+          <FontAwesomeIcon className="fonti" icon={faTv} /> TELEVIZIJA
+        </h3>
         <hr />
         <li>programska shema Mega HD</li>
         <li>vključen prvi NEO Smartbox</li>
@@ -62,7 +72,10 @@ function About() {
       </ul>
       <ul>
         <hr />
-        <h3>INTERNET</h3>
+
+        <h3>
+          <FontAwesomeIcon className="fonti" icon={faDesktop} /> INTERNET
+        </h3>
         <hr />
         <li>
           hitrost do <b>350/100 Mbit/s</b> na optiki (do 25/5 Mbit/s na VDSL, do
@@ -73,15 +86,32 @@ function About() {
       </ul>
       <ul>
         <hr />
-        <h3>FIKSNA TELEFONIJA</h3>
+
+        <h3>
+          <FontAwesomeIcon className="fonti" icon={faPhone} /> FIKSNA TELEFONIJA
+        </h3>
         <hr />
         <li>3.000 minut klicev v vsa slovenska fiksna in mobilna omrežja</li>
       </ul>
 
-      <p id="cena"> Redna cena paketa: 74 €</p>
+      <p id="cena">
+        <FontAwesomeIcon className="fonti" icon={faInfo} /> Redna cena paketa:
+        74 €
+      </p>
       <h2>Naj NEO naprave</h2>
       <div className="aligncenter">
         <div>
+          <div className="top-left">
+            <p className="item">
+              <em>Apple iPhone 13</em>
+            </p>
+            <a
+              className="links"
+              href="https://tehnik.telekom.si/test-na-dlani/test-na-dlani-apple-iphone-13"
+            >
+              Test Naprave
+            </a>
+          </div>
           <a href="https://www.telekom.si/zasebni-uporabniki/ponudba/e-trgovina/izdelek/telefonija/mobiteli/apple-iphone-13-128gb-crna">
             <img
               src="https://ts.sdn.si/hybris/1000/70031663_00/apple-iphone-13-128gb-crna/001.jpg"
@@ -89,20 +119,26 @@ function About() {
               className="tumbnail"
             />
           </a>
-          <div className="top-left">Apple iPhone 13</div>
-          <div className="bottom-right">
-            CENA 24 x <b>34,24 €</b>
-          </div>
-          <div className="bottom-left">
+
+          <div className="bottom-right">CENA 24 x 34,24 €</div>
+        </div>
+        <hr />
+        <div>
+          <div className="top-left">
+            <p className="item">
+              <em>
+                Apple Pametna ura Watch Series S7 GPS 41mm Sport Band
+                (MKMX3BS/A)
+              </em>
+            </p>
             <a
               className="links"
-              href="https://tehnik.telekom.si/test-na-dlani/test-na-dlani-apple-iphone-13"
+              href="https://tehnik.telekom.si/test-na-dlani/test-na-dlani-apple-watch7"
             >
-              Test
+              Test Naprave
             </a>
           </div>
-        </div>
-        <div>
+
           <a href="https://www.telekom.si/zasebni-uporabniki/ponudba/e-trgovina/izdelek/sport-in-prosti-cas/pametne-ure-in-zapestnice/apple-pametna-ura-watch-series-s7-gps-41mm-sport-band-mkmx3bs-a-41-mm-crna-s-crnim-pasckom-sb">
             <img
               src="https://ts.sdn.si/hybris/1000/70031976_00/apple-pametna-ura-watch-series-s7-gps-41mm-sport-band-mkmx3bs-a-41-mm-crna-s-crnim-pasckom-sb/001.jpg"
@@ -110,22 +146,22 @@ function About() {
               className="tumbnail"
             />
           </a>
+
+          <div className="bottom-right">CENA 24 x 15,39 €</div>
+        </div>
+        <hr />
+        <div>
           <div className="top-left">
-            Apple Pametna ura Watch Series S7 GPS 41mm Sport Band (MKMX3BS/A)
-          </div>
-          <div className="bottom-right">
-            CENA 24 x <b>15,39 €</b>
-          </div>
-          <div className="bottom-left">
+            <p className="item">
+              <em>Sony PlayStation®5</em>
+            </p>
             <a
               className="links"
-              href="https://tehnik.telekom.si/test-na-dlani/test-na-dlani-apple-watch7"
+              href="https://tehnik.telekom.si/test-na-dlani/test-na-dlani-playstation-5"
             >
-              Test
+              Test Naprave
             </a>
           </div>
-        </div>
-        <div>
           <a href="https://www.telekom.si/zasebni-uporabniki/ponudba/e-trgovina/izdelek/racunalnistvo/igralne-konzole/sony-playstation5-825gb-bela">
             <img
               src="https://ts.sdn.si/hybris/1000/70028128_00/sony-playstation5-825gb-bela/001.jpg"
@@ -133,22 +169,17 @@ function About() {
               className="tumbnail"
             />
           </a>
-          <div className="top-left">Sony PlayStation®5</div>
-          <div className="bottom-right">
-            CENA 24 x <b>21,00 €</b>
-          </div>
-          <div className="bottom-left">
-            <a
-              className="links"
-              href="https://tehnik.telekom.si/test-na-dlani/test-na-dlani-playstation-5"
-            >
-              Test
-            </a>
-          </div>
+
+          <div className="bottom-right">CENA 24 x 21,00 €</div>
         </div>
       </div>
       <div className="aligncenter">
         <h2>SUPER AKCIJA</h2>
+        <div className="top-left">
+          <p className="item">
+            <em>Philips 75PML9506/12 4K</em>
+          </p>
+        </div>
         <a href="https://www.telekom.si/zasebni-uporabniki/ponudba/e-trgovina/izdelek/tv-in-avdio/televizorji/philips-75pml9506-12-4k-siva">
           <img
             className="akcija"
@@ -156,10 +187,8 @@ function About() {
             alt="Philips 75PML9506/12 4K"
           />
         </a>
-        <div className="top-left">Philips 75PML9506/12 4K</div>
-        <div className="bottom-right">
-          AKCIJSKA CENA 24 x <b>101,00 €</b>
-        </div>
+
+        <div className="bottom-right">AKCIJSKA CENA 24 x 101,00 €</div>
       </div>
       <div id="opis">
         <h4>Opis izdelka</h4>
@@ -172,10 +201,10 @@ function About() {
         </p>
       </div>
       <div className="small-print">
-        <button class="accordion" onClick={Accordion}>
+        <button className="accordion" onClick={Accordion}>
           OPOMBE
         </button>
-        <div class="panel">
+        <div className="panel">
           <p>
             <small>
               <sup>1</sup>Naročniško razmerje s paketom NEO Svet B lahko

@@ -29,7 +29,7 @@ ul {
 
 ul li::before {
   content: "\2022";
-  color: grey;
+  color: #009EE3;
   font-weight: bold;
   display: inline-block; 
   width: 1em;
@@ -88,6 +88,13 @@ strong {
   outline: none;
   transition: 0.4s;
 }
+.fonti {
+  margin: 1px;
+}
+.item {
+  font-size: 20px;
+  
+}
 
 .active, .accordion:hover {
   background-color: #ccc;
@@ -128,21 +135,24 @@ strong {
 }
 
 .top-left {
-  position: absolute;
-  top: 8px;
-  left: 50px;
+  text-align: left;
+  position: relative;
+  font-weight: 999;
 }
 
 .bottom-right {
-  position: absolute;
-  bottom: 8px;
-  right: 50px;
+  text-align: right;
+  position: relative;
+  font-weight: 999;
+  font-size: 20px;
 }
 
 .bottom-left {
-  position: absolute;
+  text-align: left;
+  position: relative;
   bottom: 8px;
   left: 50px;
+  font-weight: 999;
 }
 
 
