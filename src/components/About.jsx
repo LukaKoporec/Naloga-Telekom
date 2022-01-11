@@ -98,9 +98,10 @@ function About() {
         <FontAwesomeIcon className="fonti" icon={faInfo} /> Redna cena paketa:
         74 €
       </p>
+
       <h2>Naj NEO naprave</h2>
       <div className="aligncenter">
-        <div>
+        <div className="inline">
           <div className="top-left">
             <p className="item">
               <em>Apple iPhone 13</em>
@@ -120,10 +121,10 @@ function About() {
             />
           </a>
 
-          <div className="bottom-right">CENA 24 x 34,24 €</div>
+          <div className="bottom-right">24 x 34,24 €</div>
         </div>
-        <hr />
-        <div>
+        <hr className="displayn" />
+        <div className="inline">
           <div className="top-left">
             <p className="item">
               <em>
@@ -147,10 +148,10 @@ function About() {
             />
           </a>
 
-          <div className="bottom-right">CENA 24 x 15,39 €</div>
+          <div className="bottom-right">24 x 15,39 €</div>
         </div>
-        <hr />
-        <div>
+        <hr className="displayn" />
+        <div className="inline">
           <div className="top-left">
             <p className="item">
               <em>Sony PlayStation®5</em>
@@ -170,25 +171,29 @@ function About() {
             />
           </a>
 
-          <div className="bottom-right">CENA 24 x 21,00 €</div>
+          <div className="bottom-right">24 x 21,00 €</div>
         </div>
       </div>
-      <div className="aligncenter">
-        <h2>SUPER AKCIJA</h2>
-        <div className="top-left">
-          <p className="item">
-            <em>Philips 75PML9506/12 4K</em>
-          </p>
-        </div>
-        <a href="https://www.telekom.si/zasebni-uporabniki/ponudba/e-trgovina/izdelek/tv-in-avdio/televizorji/philips-75pml9506-12-4k-siva">
-          <img
-            className="akcija"
-            src="https://ts.sdn.si/hybris/1000/70032576_00/philips-75pml9506-12-4k-siva/001.jpg"
-            alt="Philips 75PML9506/12 4K"
-          />
-        </a>
 
-        <div className="bottom-right">AKCIJSKA CENA 24 x 101,00 €</div>
+      <div className="aligncenter">
+        <hr />
+        <h2>SUPER AKCIJA</h2>
+        <div id="test">
+          <div className="top-left">
+            <p className="item">
+              <em>Philips 75PML9506/12 4K</em>
+            </p>
+          </div>
+          <a href="https://www.telekom.si/zasebni-uporabniki/ponudba/e-trgovina/izdelek/tv-in-avdio/televizorji/philips-75pml9506-12-4k-siva">
+            <img
+              className="akcija"
+              src="https://ts.sdn.si/hybris/1000/70032576_00/philips-75pml9506-12-4k-siva/001.jpg"
+              alt="Philips 75PML9506/12 4K"
+            />
+          </a>
+
+          <div className="bottom-right">AKCIJSKA CENA 24 x 101,00 €</div>
+        </div>
       </div>
       <div id="opis">
         <h4>Opis izdelka</h4>
