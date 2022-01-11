@@ -1,11 +1,11 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
-import "../Styles/About.scss";
+import "../Styles/Styles.scss";
 
 function About() {
   return (
-    <div>
+    <div className="container">
       <p id="start">
         <strong>Paket NEO Svet B</strong> poleg SVETOVNE mobilne telefonije,
         televizije, interneta ter Fiksne telefonije novim in obstoječim

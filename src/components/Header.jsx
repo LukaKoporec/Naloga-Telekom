@@ -1,10 +1,10 @@
 import React from "react";
-import "../Styles/Header.scss";
+import "../Styles/Styles.scss";
 
 function Header() {
   return (
     <header id="header-new">
-      <div>
+      <div className="container">
         <span>POLOVIČNA NAROČNINA ZA NOVE IN OBSTOJEČE NAROČNIKE</span>
         <h1>
           PAKET <b>NEO SVET B</b>

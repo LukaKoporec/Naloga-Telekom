@@ -1,10 +1,10 @@
 import React from "react";
-import "../Styles/Footer.scss";
+import "../Styles/Styles.scss";
 
 function Footer() {
   return (
     <footer id="footer-new">
-      <div>
+      <div className="container">
         <h3>Pridružite se nam na družbenih omrežjih</h3>
         <p>Sveže novice, akcije in ponudbe.</p>
         <div id="social">

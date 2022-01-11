@@ -9,14 +9,6 @@ div {
   font-family: GeogrotesqueRegular,Arial,Helvetica,sans-serif;
   position: relative;
 }
-#start {
-  margin: 40px 200px 40px 200px;
-  font-family: GeogrotesqueRegular,Arial,Helvetica,sans-serif;
-  color: #516BEB;
-  font-size: 20px;
-  text-align: center;
-  
-}
 
 h2 {
   font-family: GeogrotesqueRegular,Arial,Helvetica,sans-serif;
@@ -30,6 +22,15 @@ hr {
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 }
 
+#start {
+  margin: 40px 200px 40px 200px;
+  font-family: GeogrotesqueRegular,Arial,Helvetica,sans-serif;
+  color: #516BEB;
+  font-size: 20px;
+  text-align: center;
+  
+}
+
 #cena {
   color: #516BEB;
   position: relative;
@@ -39,6 +40,23 @@ hr {
   font-size: 16px;
   border-radius: 5px;
   text-align: center;
+}
+
+#opis {
+  margin: 40px 200px 40px 200px;
+  font-family: GeogrotesqueRegular,Arial,Helvetica,sans-serif;
+  color: #516BEB;
+  font-size: 20px;
+  text-align: center;
+}
+
+
+#pdf {
+  padding: 50px;
+}
+
+#pdfLink {
+  padding: 10px;
 }
 
 .tumbnail {
@@ -76,25 +94,11 @@ hr {
   left: 50px;
 }
 
-#opis {
-  margin: 40px 200px 40px 200px;
-  font-family: GeogrotesqueRegular,Arial,Helvetica,sans-serif;
-  color: #516BEB;
-  font-size: 20px;
-  text-align: center;
-}
+
 
 .small-print {
   padding: 10px;
   background-color: 
   #F5F5F5;
   color: gray;
-}
-
-#pdf {
-  padding: 50px;
-}
-
-#pdfLink {
-  padding: 10px;
 }

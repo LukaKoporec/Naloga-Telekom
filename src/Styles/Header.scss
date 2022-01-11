@@ -5,6 +5,41 @@ body {
     width: 100%;
     height: 100%;
 }
+
+
+span {
+    position: relative;
+    left: 20px;
+    top: 50px;
+    margin: 20px;
+    padding: 0 15px;
+    border: 1px solid #ffffff;
+    text-transform: uppercase;
+    font-size: 20px;
+    border-radius: 2px;
+}
+h1 {
+  position: relative;
+  left: 20px;
+  top: 80px;
+  font-weight: normal;
+  margin: 40px 0.5em;
+  font-size: 50px;
+  text-transform: uppercase;
+}
+b {
+  font-weight: bold;
+}
+
+h2 {
+  font-family: GeogrotesqueSemibold,Arial,Helvetica,sans-serif;
+  font-size: 40px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
 #header-new {
   position: relative;
   background-size: cover;
@@ -16,28 +51,4 @@ body {
   background-image: url("https://www.blog.uporabnastran.si/wp-content/uploads/2021/04/Telekom-Slovenije-internetna-hitrost-optika-dvig-hitrosti-neo-svet-1024x539.jpg");
   background-size: cover;
   box-shadow: inset 0 0 0 1000px rgba(0,0,0,.2);
-}
-
-span {
-    position: relative;
-    left: 20px;
-    top: 50px;
-    margin: 20px;
-    padding: 0 15px;
-    border: 1px solid #ffffff;
-    text-transform: uppercase;
-    font-size: 14px;
-    border-radius: 2px;
-}
-h1 {
-  position: relative;
-  left: 20px;
-  top: 80px;
-  font-weight: normal;
-  margin: 40px 0.5em;
-  font-size: 3em;
-  text-transform: uppercase;
-}
-b {
-  font-weight: bold;
 }
