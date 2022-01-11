@@ -1,13 +1,31 @@
-p {
-  font-size: 16px;
+h1 {
+  position: relative;
+  left: 20px;
+  top: 80px;
+  font-weight: normal;
+  margin: 40px 0.5em;
+  font-size: 80px;
+  text-transform: uppercase;
 }
-@media screen and (min-width: 320px) {
-  p {
-    font-size: calc(16px + 6 * ((100vw - 320px) / 680));
-  }
+
+span {
+  position: relative;
+  left: 20px;
+  top: 50px;
+  margin: 20px;
+  padding: 0 15px;
+  border: 1px solid #ffffff;
+  text-transform: uppercase;
+  font-size: 30px;
+  border-radius: 2px;
 }
-@media screen and (min-width: 1000px) {
-  p {
-    font-size: 22px;
+
+@media (max-width: 768px) {
+  span {
+    font-size: 8px;
   }
+ h1 {
+   font-size: 30px;
+   
+ }
 }

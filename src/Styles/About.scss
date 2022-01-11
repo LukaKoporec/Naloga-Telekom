@@ -40,6 +40,8 @@ strong {
   font-family: GeogrotesqueSemibold,Arial,Helvetica,sans-serif;
 }
 
+
+
 #start {
   margin: 40px 200px 40px 200px;
   font-family: GeogrotesqueRegular,Arial,Helvetica,sans-serif;
@@ -47,6 +49,13 @@ strong {
   font-size: 20px;
   text-align: center;
   
+}
+
+@media (max-width: 768px) {
+  #start {
+    margin:  10px 0px;
+  }
+
 }
 
 #cena {
@@ -60,12 +69,26 @@ strong {
   text-align: center;
 }
 
+@media (max-width: 768px) {
+  #cena {
+    margin:  10px 0px;
+  }
+
+}
+
 #opis {
   margin: 40px 200px 40px 200px;
   font-family: GeogrotesqueRegular,Arial,Helvetica,sans-serif;
   color: #009EE3;
   font-size: 20px;
   text-align: center;
+}
+
+@media (max-width: 768px) {
+  #opis {
+    margin:  10px 0px;
+  }
+
 }
 
 
